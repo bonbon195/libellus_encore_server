@@ -2,6 +2,5 @@
 encore.gen.go
 encore.gen.cue
 *.json
-encore.app
 *.env
 .idea/
