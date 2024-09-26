@@ -1,7 +1,7 @@
 package student_schedule
 
 type Day struct {
-	Name    string   `json:"name"`
-	Date    string   `json:"date"`
-	Lessons []Lesson `json:"lessons"`
+	Name    string   `json:"name,omitempty"`
+	Date    string   `json:"date,omitempty"`
+	Lessons []Lesson `json:"lessons,omitempty"`
 }
